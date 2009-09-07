@@ -1,0 +1,42 @@
+chemikadze@hell ~/programming/qt/qMatrixOperator/QMatrixOperator $ for i in `seq 10`; do sudo cpufreq-set -c 0 -g performance && sudo cpufreq-set -c 1 -g performance; make clean; time make; done | grep real                                                                                                                                                    
+
+real    0m28.342s
+user    0m24.219s
+sys     0m1.410s 
+
+real    0m15.250s
+user    0m14.315s
+sys     0m0.822s 
+
+real    0m15.542s
+user    0m14.356s
+sys     0m0.865s
+
+real    0m15.530s
+user    0m14.413s
+sys     0m0.835s
+
+real    0m15.552s
+user    0m14.311s
+sys     0m0.849s
+
+real    0m15.267s
+user    0m14.316s
+sys     0m0.858s
+
+real    0m15.488s
+user    0m14.345s
+sys     0m0.834s
+
+real    0m15.609s
+user    0m14.327s
+sys     0m0.892s
+
+real    0m15.914s
+user    0m14.644s
+sys     0m0.867s
+
+real    0m43.902s
+user    0m38.685s
+sys     0m2.640s
+
